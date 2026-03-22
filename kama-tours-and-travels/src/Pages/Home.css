@@ -1,0 +1,205 @@
+.hero {
+  height: 100vh;
+  background: url('../../public/6.png') center/cover no-repeat;
+  position: relative;
+   overflow: hidden;
+}
+
+/* gradient overlay */
+.hero-overlay {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    rgba(45, 75, 200, 0.7),
+    rgba(200, 45, 100, 0.7)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+  padding-left: 40px;
+ 
+}
+
+.hero-content {
+  color: white;
+  max-width: 600px;
+  animation: fadeIn 0.8s ease-in-out;
+
+}
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+ 
+}
+
+.hero-content p {
+    max-width: 90%;
+  /* margin-bottom: 20px; */
+  line-height: 1.6;
+   word-wrap: break-word;
+}
+
+.hero-btn {
+  background: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+
+  background: #79db7c;
+
+}
+
+
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+ gap: 10px;
+  text-align: center;
+}
+
+.feature {
+    width: 100%;
+  max-width: 250px;
+   background: #f5f5f5;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: rgba(59, 29, 230, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   animation: fadeIn 0.8s ease-in-out;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.5s ease;
+  background-color: #d2deff;
+}
+
+.feature p{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+
+@media (max-width: 768px) {
+
+    .hero-overlay{
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
+    }
+  .features {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .feature {
+    max-width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 35px;}
+}
+
+
+
+/* WHY CHOOSE SECTION */
+.why-choose {
+  padding: 60px 40px;
+  text-align: center;
+  background: #f9fbff;
+}
+
+.why-choose h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: #2d4bc8;
+}
+
+/* cards container */
+.why-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* individual card */
+.why-card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* hover effect */
+.why-card:hover {
+  transform: translateY(-8px);
+  background: #e8edff;
+  color: #2d4bc8;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .why-cards {
+    grid-template-columns: 1fr;
+  }
+  .feature {
+    max-width: 80%;
+    margin-bottom: 12px;
+  }
+  .features{
+    gap: 0;
+  }
+}
+
+
+
+.whatsapp_link{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
