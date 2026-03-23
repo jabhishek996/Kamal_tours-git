@@ -207,3 +207,197 @@
   right: 20px;
   z-index: 1000;
 }
+
+
+
+.vehicles-section {
+  padding: 60px 20px;
+  background: #f9fbfd;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.section-subtitle {
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.vehicles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.vehicle-card {
+  max-width: 300px;
+   margin: 0 auto;
+  background: #fff;
+  padding: 25px 20px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.vehicle-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+.vehicle-card .icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.vehicle-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.vehicle-card p {
+  font-size: 0.95rem;
+  color: #777;
+}
+
+.vehicle-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+.vehicles-section {
+  padding: 70px 20px;
+  background: #f4f7fb;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.section-subtitle {
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.vehicles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.vehicle-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+  transition: 0.3s;
+}
+
+.vehicle-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.vehicle-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.vehicle-card h3 {
+  margin: 15px 0 5px;
+  font-size: 1.2rem;
+}
+
+.vehicle-card .info {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.vehicle-card .price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #007bff;
+}
+
+.book-btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.book-btn:hover {
+  background: #0056b3;
+}
+
+.vehicle-card img {
+  transition: 0.3s;
+}
+
+.vehicle-card:hover img {
+  transform: scale(1.05);
+}
+.vehicles-grid {
+  display: grid;
+}
+
+.swiper-wrapper {
+  padding-bottom: 40px;
+}
+
+/* Smooth transition for all slides */
+.swiper-slide {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  opacity: 0.6;
+  transform: scale(0.85);
+}
+
+/* Active (center) slide */
+.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 2;
+}
+
+/* Optional: Slight emphasis for next & prev */
+.swiper-slide-next,
+.swiper-slide-prev {
+  opacity: 0.8;
+  transform: scale(0.92);
+}
+
+.swiper-slide-active .vehicle-card {
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.swiper-slide {
+  user-select: none;
+}
+
+.vehicle-card {
+  pointer-events: auto;
+}
+.swiper {
+  padding-bottom: 40px;
+}
+
+.swiper-slide {
+  transition-timing-function: ease-out;
+}
