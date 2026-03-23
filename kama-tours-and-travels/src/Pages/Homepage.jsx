@@ -6,6 +6,18 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 
+
+const handleWhatsApp = (vehicle) => {
+  const phoneNumber = "918956355200"; // replace with your number
+
+  const message = `Hi, I want to book ${vehicle} . Please share details.`;
+
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+  window.open(url, "_blank");
+};
+
+
 const Home = () => {
   return (
     <>
@@ -26,18 +38,18 @@ const Home = () => {
 
           <div className="features">
             <div className="feature">
-              <h3>Any Questions</h3>
-              <p>We are here to help you anytime.</p>
+              <h3>Easy Booking</h3>
+    <p>Book your ride quickly with simple and hassle-free process.</p>
             </div>
 
             <div className="feature">
-              <h3>Online Support</h3>
-              <p>24/7 online support available.</p>
+               <h3>Comfortable Vehicles</h3>
+    <p>Well-maintained cars with AC for a smooth and relaxing journey.</p>
             </div>
 
             <div className="feature">
-              <h3>24/7 Call Center</h3>
-              <p>Always ready to assist you.</p>
+               <h3>24/7 Service</h3>
+    <p>Available anytime for local trips, outstation travel, and tours.</p>
             </div>
           </div>
         </div>
@@ -88,7 +100,12 @@ const Home = () => {
               <h3>Maruti Suzuki Dzire</h3>
               <p className="info">🚗 4 Seater | ❄️ AC</p>
               <p className="price">₹12/km</p>
-              <button className="book-btn">Book Now</button>
+             <button
+  className="book-btn"
+  onClick={() => handleWhatsApp("Maruti Suzuki Dzire")}
+>
+  Book Now
+</button>
             </div>
           </SwiperSlide>
 
@@ -99,7 +116,12 @@ const Home = () => {
               <h3>Toyota Etios</h3>
               <p className="info">🚗 4 Seater | ❄️ AC</p>
               <p className="price">₹13/km</p>
-              <button className="book-btn">Book Now</button>
+              <button
+  className="book-btn"
+  onClick={() => handleWhatsApp("Toyota Etios")}
+>
+  Book Now
+</button>
             </div>
           </SwiperSlide>
 
@@ -110,7 +132,12 @@ const Home = () => {
               <h3>Hyundai Xcent</h3>
               <p className="info">🚗 4 Seater | ❄️ AC</p>
               <p className="price">₹12/km</p>
-              <button className="book-btn">Book Now</button>
+             <button
+  className="book-btn"
+  onClick={() => handleWhatsApp("Hyundai Xcent")}
+>
+  Book Now
+</button>
             </div>
           </SwiperSlide>
 
@@ -121,7 +148,12 @@ const Home = () => {
               <h3>Maruti Suzuki Ertiga</h3>
               <p className="info">🚙 6-7 Seater | ❄️ AC</p>
               <p className="price">₹16/km</p>
-              <button className="book-btn">Book Now</button>
+              <button
+  className="book-btn"
+  onClick={() => handleWhatsApp("Maruti Suzuki Ertiga")}
+>
+  Book Now
+</button>
             </div>
           </SwiperSlide>
 
@@ -132,18 +164,28 @@ const Home = () => {
               <h3>Tempo Traveller</h3>
               <p className="info">🚐 17 Seater & 20 Seater | ❄️ AC</p>
               <p className="price">₹22/km</p>
-              <button className="book-btn">Book Now</button>
+                <button
+  className="book-btn"
+  onClick={() => handleWhatsApp("Tempo Traveller")}
+>
+  Book Now
+</button>
             </div>
           </SwiperSlide>
 
           {/* Bus */}
           <SwiperSlide>
             <div className="vehicle-card">
-              <img src="/vehicles/dzire.png" alt="Bus" />
+              <img src="/vehicles/bus.png" alt="Bus" />
               <h3>Bus</h3>
               <p className="info">🚌 30-50 Seater | ❄️ AC</p>
               <p className="price">₹35/km</p>
-              <button className="book-btn">Book Now</button>
+              <button
+  className="book-btn"
+  onClick={() => handleWhatsApp("Bus")}
+>
+  Book Now
+</button>
             </div>
           </SwiperSlide>
         </Swiper>

@@ -1,6 +1,7 @@
 import React from "react";
 import "./ContactPage.css";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaHeadset } from "react-icons/fa";
+import WhatsAppButton from "../components/whats_app_chat/whatsApp";
 
 const ContactPage = () => {
   return (
@@ -11,25 +12,25 @@ const ContactPage = () => {
         <div className="card">
           <FaMapMarkerAlt className="icon" />
           <h3>Our Office</h3>
-          <p>Bali Mandir,Panchavati<br />Nashik, Maharashtra</p>
+          <p>Panchavati<br />Nashik, Maharashtra</p>
         </div>
 
-        <div className="card">
+        <div className="card" onClick={() => window.location.href = "tel:+918956355200"}>
           <FaPhoneAlt className="icon" />
           <h3>Call Us</h3>
-          <p>+91 8956355200<br />+91 91234 56789</p>
+          <p>+91 8956355200</p>
         </div>
 
-        <div className="card">
+        <div className="card" onClick={() => window.location.href = "https://wa.me/918956355200"}>
           <FaHeadset className="icon" />
           <h3>WhatsApp</h3>
           <p>+91 8956355200</p>
         </div>
 
-        <div className="card">
+        <div className="card" onClick={() => window.location.href = "https://www.instagram.com/tripwithsarthak/"}>
           <FaEnvelope className="icon" />
-          <h3>Email</h3>
-          <p>support@travelworld.com</p>
+          <h3>Instagram</h3>
+          <p>@tripwithsarthak</p>
         </div>
       </div>
 

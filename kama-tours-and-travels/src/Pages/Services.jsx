@@ -19,12 +19,13 @@ const Services = () => {
 
       <div className="services-grid">
         {services.map((service, index) => (
-          <div className="service-card" key={index}>
+          <div className="service-card" key={index} >
             <div className="icon">🚖 </div>
             <h3>{service}</h3>
             <p>
               Reliable and comfortable travel solutions tailored for your needs.
             </p>
+            <button className="enquire-btn" onClick={() => window.location.href = "https://wa.me/918956355200"}>Enquire Now</button>
           </div>
         ))}
       </div>
