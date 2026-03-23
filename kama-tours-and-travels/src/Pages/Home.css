@@ -121,7 +121,7 @@
 @media (max-width: 768px) {
 
     .hero-overlay{
-        padding: 20px;
+        padding: 20px 0;
         align-items: center;
         text-align: center;
         margin-top: 50px;
@@ -129,6 +129,7 @@
   .features {
     flex-direction: column;
     align-items: center;
+    width: 90%;
     
   }
   
@@ -165,6 +166,9 @@
 
 /* individual card */
 .why-card {
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
   background: white;
   padding: 25px;
   border-radius: 10px;

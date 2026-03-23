@@ -43,12 +43,12 @@ const Home = () => {
         <h2>Why Choose Kamal Tours & Travels</h2>
 
         <div className="why-cards">
-          <div className="why-card"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#75FB4C"><path d="M379.33-244 154-469.33 201.67-517l177.66 177.67 378.34-378.34L805.33-670l-426 426Z"/></svg>   Experienced & Verified Drivers</div>
-          <div className="why-card">24×7 Customer Support</div>
-          <div className="why-card">Transparent & Affordable Pricing</div>
-          <div className="why-card">Flexible Pickup & Drop Timings</div>
-          <div className="why-card">Clean, Sanitized Vehicles</div>
-          <div className="why-card">Hassle-free Online & Phone Booking</div>
+          <div className="why-card"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#47bd23"><path d="M379.33-244 154-469.33 201.67-517l177.66 177.67 378.34-378.34L805.33-670l-426 426Z"/></svg>   Experienced & Verified Drivers</div>
+          <div className="why-card"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#47bd23"><path d="M379.33-244 154-469.33 201.67-517l177.66 177.67 378.34-378.34L805.33-670l-426 426Z"/></svg> 24×7 Customer Support</div>
+          <div className="why-card"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#47bd23"><path d="M379.33-244 154-469.33 201.67-517l177.66 177.67 378.34-378.34L805.33-670l-426 426Z"/></svg> Transparent & Affordable Pricing</div>
+          <div className="why-card"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#47bd23"><path d="M379.33-244 154-469.33 201.67-517l177.66 177.67 378.34-378.34L805.33-670l-426 426Z"/></svg> Flexible Pickup & Drop Timings</div>
+          <div className="why-card"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#47bd23"><path d="M379.33-244 154-469.33 201.67-517l177.66 177.67 378.34-378.34L805.33-670l-426 426Z"/></svg> Clean, Sanitized Vehicles</div>
+          <div className="why-card"> <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#47bd23"><path d="M379.33-244 154-469.33 201.67-517l177.66 177.67 378.34-378.34L805.33-670l-426 426Z"/></svg>Hassle-free Online & Phone Booking</div>
         </div>
 <div className='whatsapp_link'> <WhatsAppButton /></div>
         
