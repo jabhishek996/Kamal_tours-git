@@ -93,6 +93,26 @@ const Home = () => {
     1024: { slidesPerView: 3 },
   }}
 >
+
+ {/* Aura */}
+          <SwiperSlide>
+            <div className="vehicle-card">
+              <img src="/vehicles/aura.png" alt="Aura" />
+              <h3>Maruti Suzuki Aura</h3>
+              <p className="info">🚗 4 Seater | ❄️ AC</p>
+              <p className="price">₹12/km</p>
+             <button
+  className="book-btn"
+  onClick={() => handleWhatsApp("Maruti Suzuki Aura")}
+>
+  Book Now
+</button>
+            </div>
+          </SwiperSlide>
+
+
+
+
           {/* Dzire */}
           <SwiperSlide>
             <div className="vehicle-card">
