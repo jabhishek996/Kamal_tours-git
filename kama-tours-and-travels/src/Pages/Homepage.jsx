@@ -183,7 +183,7 @@ const Home = () => {
               <img src="/vehicles/traveller.png" alt="Tempo Traveller" />
               <h3>Tempo Traveller</h3>
               <p className="info">🚐 17 Seater & 20 Seater | ❄️ AC</p>
-              <p className="price">₹22/km</p>
+              <p className="price">₹22/km(Non-AC) </p>
                 <button
   className="book-btn"
   onClick={() => handleWhatsApp("Tempo Traveller")}
