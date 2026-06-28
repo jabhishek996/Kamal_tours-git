@@ -97,7 +97,7 @@ const Home = () => {
  {/* Aura */}
           <SwiperSlide>
             <div className="vehicle-card">
-              <img src="/vehicles/aura.png" alt="Aura" />
+              <img src="/vehicles/aura.jpg" alt="Aura" />
               <h3>Maruti Suzuki Aura</h3>
               <p className="info">🚗 4 Seater | ❄️ AC</p>
               <p className="price">₹12/km</p>
@@ -116,7 +116,7 @@ const Home = () => {
           {/* Dzire */}
           <SwiperSlide>
             <div className="vehicle-card">
-              <img src="/vehicles/dzire.png" alt="Dzire" />
+              <img src="/vehicles/dzire.jpg" alt="Dzire" />
               <h3>Maruti Suzuki Dzire</h3>
               <p className="info">🚗 4 Seater | ❄️ AC</p>
               <p className="price">₹12/km</p>
@@ -132,7 +132,7 @@ const Home = () => {
           {/* Etios */}
           <SwiperSlide>
             <div className="vehicle-card">
-              <img src="/vehicles/etios.png" alt="Etios" />
+              <img src="/vehicles/etios.jpg" alt="Etios" />
               <h3>Toyota Etios</h3>
               <p className="info">🚗 4 Seater | ❄️ AC</p>
               <p className="price">₹13/km</p>
@@ -148,7 +148,7 @@ const Home = () => {
           {/* Xcent */}
           <SwiperSlide>
             <div className="vehicle-card">
-              <img src="/vehicles/xcent.png" alt="Xcent" />
+              <img src="/vehicles/xcent.jpg" alt="Xcent" />
               <h3>Hyundai Xcent</h3>
               <p className="info">🚗 4 Seater | ❄️ AC</p>
               <p className="price">₹12/km</p>
@@ -164,7 +164,7 @@ const Home = () => {
           {/* Ertiga */}
           <SwiperSlide>
             <div className="vehicle-card">
-              <img src="/vehicles/ertiga.png" alt="Ertiga" />
+              <img src="/vehicles/ertiga.jpg" alt="Ertiga" />
               <h3>Maruti Suzuki Ertiga</h3>
               <p className="info">🚙 6-7 Seater | ❄️ AC</p>
               <p className="price">₹16/km</p>
@@ -180,7 +180,7 @@ const Home = () => {
           {/* Traveller */}
           <SwiperSlide>
             <div className="vehicle-card">
-              <img src="/vehicles/traveller.png" alt="Tempo Traveller" />
+              <img src="/vehicles/traveller.jpg" alt="Tempo Traveller" />
               <h3>Tempo Traveller</h3>
               <p className="info">🚐 17 Seater & 20 Seater | ❄️ AC</p>
               <p className="price">₹22/km(Non-AC) </p>
@@ -193,10 +193,10 @@ const Home = () => {
             </div>
           </SwiperSlide>
 
-          {/* Bus */}
+{/*          
           <SwiperSlide>
             <div className="vehicle-card">
-              <img src="/vehicles/bus.png" alt="Bus" />
+              <img src="/vehicles/bus.jpg" alt="Bus" />
               <h3>Bus</h3>
               <p className="info">🚌 30-50 Seater | ❄️ AC</p>
               <p className="price">₹35/km</p>
@@ -207,7 +207,7 @@ const Home = () => {
   Book Now
 </button>
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </section>
